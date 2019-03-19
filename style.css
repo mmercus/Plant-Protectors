@@ -1,5 +1,5 @@
 body {
-  background: url("pictures/1.jpg") no-repeat center center fixed;
+  background: url("pictures/cactus5.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
@@ -9,6 +9,11 @@ h1 {
   font-family: Courier;
   text-decoration: underline;
   }
+h5 {
+  text-align: left;
+  font-family: Courier;
+  color: white;
+}
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
@@ -19,14 +24,36 @@ ul {
     }
 .box {
   overflow: scroll;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.9);
   max-width: 1140px;
   margin: 0 auto;
-  height: 500px;
+  height: 590px;
   border: 5px solid white;
-  margin-top: 10%;
-  text-align: center;
+  margin-top: 6%;
   }
 p {
   font-family: Courier;
+  text-align: center;
+  padding-top: 5px;
   }
+.buttons {
+  display: inline;
+  margin: 0 auto;
+  max-width: 200px
+  }
+.mybutton {
+  display: table;
+  margin: 0 auto
+  padding: 0px 10px 0px 10px;
+  font-family: Courier;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Courier;
+  padding: 0px 10px 0px 10px;
+  }
+.carousel-inner {
+  margin: 0 auto;
+  max-height: 250px;
+  max-width: 1050px;
+  padding-top: 5px;
+}
