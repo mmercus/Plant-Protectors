@@ -9,6 +9,11 @@ h1 {
   font-family: Courier;
   text-decoration: underline;
   }
+h5 {
+  text-align: left;
+  font-family: Courier;
+  color: white;
+}
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
@@ -19,14 +24,264 @@ ul {
     }
 .box {
   overflow: scroll;
-  background-color: rgba(255,255,255,0.8);
-  max-width: 1140px;
+  background-color: rgba(255,255,255,0.9);
+  max-width: 1200px;
   margin: 0 auto;
-  height: 500px;
+  height: 640px;
   border: 5px solid white;
-  margin-top: 10%;
-  text-align: center;
+  margin-top: 3%;
   }
-p {
+.text {
   font-family: Courier;
+  text-align: center;
+  padding-top: 20px;
+  max-width: 1050px;
+  margin: 0 auto;
   }
+/*.buttons {
+  display: inline;
+  margin: 0 auto;
+  max-width: 1000px
+  }
+.mybutton {
+  display: table;
+  margin: 0 auto
+  padding: 0px 10px 0px 10px;
+  font-family: Courier;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Courier;
+  padding: 0px 10px 0px 10px;
+  }
+*/.carousel-inner {
+  margin: 0 auto;
+  max-height: 250px;
+  max-width: 1050px;
+  padding-top: 10px;
+}
+.card {
+  border: 5px solid white;
+}
+h4 {
+  color: black;
+  font-family: Courier;
+  text-align: center;
+}
+.card-deck {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+.careimage {
+  width: 550px;
+  padding: 10px 10px 10px 10px;
+  float: left;
+}
+h3 {
+  font-family: Courier;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+ol {
+  font-family: Courier;
+}
+.text-1 {
+  padding-left: 560px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.text-2 {
+  padding-left: 560px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.text-3 {
+  padding-left: 560px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.text-4 {
+  padding-left: 560px;
+  padding-top: 5px;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+}
+
+a:active {
+  color: gray;
+  background-color: transparent;
+}
+body {
+  font-family: Courier;
+}
+.careimage2 {
+  width: 570px;
+  float: right;
+  padding: 25px 10px 10px 30px;
+}
+.text-5 {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  max-width: 630px;
+}
+.text-6 {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  max-width: 630px;
+}
+.text-7 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  max-width: 630px;
+}
+.careimage3 {
+  width: 1180px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.tropical-problems {
+  padding-left: 50px;
+  padding-right: 10px;
+}
+.selectiontext {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.selectioncards1 {
+  max-width: 1000px;
+  margin: auto;
+  background-color: black;
+  border-radius: 25px;
+}
+.card-title {
+  text-align: center;
+  padding-top: 20px;
+}
+.text-muted {
+  display: block;
+}
+.careimage3 {
+  width: 1170px;
+  margin: 20px auto;
+}
+.container {
+  float: right;
+  width: 440px;
+}
+.potting {
+  float: right;
+  width: 410px;
+  margin-right: 15px;
+}
+.watering {
+  float: right;
+  width: 410px;
+  margin-right: 15px;
+  margin-top: 50px;
+}
+.aboutus {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.about-title {
+  color: black;
+  text-align: center;
+  margin-left: 20px;
+}
+.about-text {
+  font-family: Courier;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.team-title {
+  margin-top: 50px;
+  padding-left: 180px;
+  color: black;
+}
+.us-text {
+  text-align: center;
+}
+.form-group {
+  width: 500px;
+  padding-left: 60px;
+  padding-top: 10px;
+
+}
+.submit {
+  max-width: 800px;
+  margin: 10px auto;
+}
+.usplant {
+  width: 600px;
+  padding-right: 20px;
+  float: right;
+  margin-bottom: 10px;
+}
+.contact-title {
+  color: black;
+  padding-left: 250px;
+  padding-top: 20px;
+}
+.contactform {
+  max-width: 500px;
+  margin: 10px;
+  padding-left: 40px;
+}
+.contact-title2 {
+  color: black;
+  float: right;
+}
+/* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+  width: 60px;
+  float: right;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #383838 !important;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #383838 !important;
+  color: white;
+}
+.btn-secondary {
+margin-left: 230px;
+margin-top: 10px;
+}
+.contactplant {
+  float: right;
+  margin-right: 20px;
+  width: 560px;
+  margin-bottom: 20px;
+}
